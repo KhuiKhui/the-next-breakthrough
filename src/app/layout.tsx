@@ -27,7 +27,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <div className="font-display">
+        <div className="font-display tracking-wide overflow-hidden">
           <Header />
           {children}
           <Footer />
