@@ -6,3 +6,22 @@
   margin: 0px;
   padding: 0px;
 }
+
+::-webkit-scrollbar {
+  width: 5.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #02012f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#02012f, #c084fc, #02012f);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#02012f, #c084fc, #c084fc, #02012f);
+}
