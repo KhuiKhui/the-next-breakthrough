@@ -39,6 +39,9 @@ export default function Home() {
         <img src="/transition-1-flip.svg" alt="transition" width="100%"></img>
       </div>
       <Speakers />
+      <div className="text-[20px] mb-[50px]">
+        We{"'"}ll see you at The Next Breakthrough!
+      </div>
     </div>
   );
 }

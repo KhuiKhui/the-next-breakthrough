@@ -1,13 +1,23 @@
 import Image from "next/image";
 import React from "react";
+import SpeakersTab from "./SpeakersTab";
 
 function Speakers() {
   return (
-    <div className="flex flex-col justify-center items-center mb-[100px]">
-      <b className="text-[30px] mb-[50px]">Speakers</b>
+    <div className="flex flex-col justify-center items-center mb-[200px]">
+      <b id="speakers" className="text-[30px] mb-[100px]">
+        Speakers
+      </b>
 
       <div>
-        <Image src="/class_pic.png" alt="temp" width={400} height={700}></Image>
+        <SpeakersTab
+          imgParams={{
+            src: "/class_pic.png",
+            alt: "temp",
+            name: "Speaker #1",
+            desc: "Lorem ipsum dolor sit amet",
+          }}
+        />
       </div>
     </div>
   );

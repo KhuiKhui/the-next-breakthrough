@@ -12,8 +12,8 @@ function Header() {
         <Link href="#about" className="hover:text-[#C084FC] pr-10">
           About
         </Link>
-        <Link href="#details" className="hover:text-[#C084FC] pr-10">
-          Details
+        <Link href="#speakers" className="hover:text-[#C084FC] pr-10">
+          Speakers
         </Link>
         <Link
           href="https://www.facebook.com"
