@@ -56,8 +56,8 @@ function AboutSelection() {
         <div>
           Artificial intelligence, or AI for short, is a vast and exciting field
           that encompasses machines that can perform tasks typically requiring
-          human intelligence. It's not about creating human replicas, but rather
-          about imbuing machines with the ability to reason, learn, solve
+          human intelligence. It{"'"}s not about creating human replicas, but
+          rather about imbuing machines with the ability to reason, learn, solve
           problems, and make decisions. AI systems can analyze information, draw
           conclusions, and adapt their behavior based on new data. This allows
           them to tackle complex challenges in various fields, from healthcare
@@ -74,11 +74,12 @@ function AboutSelection() {
           real-time customer service, answer our questions, and even generate
           creative text formats like poems or code. As AI continues to evolve,
           it has the potential to revolutionize many aspects of our lives.
-          However, it's important to remember that AI is a tool, and like any
-          tool, it can be used for good or bad. There are ongoing discussions
-          about the potential risks and ethical considerations of strong AI. But
-          for now, AI is a powerful technology that is transforming our world,
-          and it will be interesting to see what the future holds.
+          However, it{"'"}s important to remember that AI is a tool, and like
+          any tool, it can be used for good or bad. There are ongoing
+          discussions about the potential risks and ethical considerations of
+          strong AI. But for now, AI is a powerful technology that is
+          transforming our world, and it will be interesting to see what the
+          future holds.
         </div>
       </div>
       <div
@@ -92,8 +93,8 @@ function AboutSelection() {
         <div>
           Artificial intelligence, or AI for short, is a vast and exciting field
           that encompasses machines that can perform tasks typically requiring
-          human intelligence. It's not about creating human replicas, but rather
-          about imbuing machines with the ability to reason, learn, solve
+          human intelligence. It{"'"}s not about creating human replicas, but
+          rather about imbuing machines with the ability to reason, learn, solve
           problems, and make decisions. AI systems can analyze information, draw
           conclusions, and adapt their behavior based on new data. This allows
           them to tackle complex challenges in various fields, from healthcare
@@ -110,11 +111,12 @@ function AboutSelection() {
           real-time customer service, answer our questions, and even generate
           creative text formats like poems or code. As AI continues to evolve,
           it has the potential to revolutionize many aspects of our lives.
-          However, it's important to remember that AI is a tool, and like any
-          tool, it can be used for good or bad. There are ongoing discussions
-          about the potential risks and ethical considerations of strong AI. But
-          for now, AI is a powerful technology that is transforming our world,
-          and it will be interesting to see what the future holds.
+          However, it{"'"}s important to remember that AI is a tool, and like
+          any tool, it can be used for good or bad. There are ongoing
+          discussions about the potential risks and ethical considerations of
+          strong AI. But for now, AI is a powerful technology that is
+          transforming our world, and it will be interesting to see what the
+          future holds.
         </div>
       </div>
       <div
@@ -126,8 +128,8 @@ function AboutSelection() {
         <div>
           Artificial intelligence, or AI for short, is a vast and exciting field
           that encompasses machines that can perform tasks typically requiring
-          human intelligence. It's not about creating human replicas, but rather
-          about imbuing machines with the ability to reason, learn, solve
+          human intelligence. It{"'"}s not about creating human replicas, but
+          rather about imbuing machines with the ability to reason, learn, solve
           problems, and make decisions. AI systems can analyze information, draw
           conclusions, and adapt their behavior based on new data. This allows
           them to tackle complex challenges in various fields, from healthcare
@@ -144,11 +146,12 @@ function AboutSelection() {
           real-time customer service, answer our questions, and even generate
           creative text formats like poems or code. As AI continues to evolve,
           it has the potential to revolutionize many aspects of our lives.
-          However, it's important to remember that AI is a tool, and like any
-          tool, it can be used for good or bad. There are ongoing discussions
-          about the potential risks and ethical considerations of strong AI. But
-          for now, AI is a powerful technology that is transforming our world,
-          and it will be interesting to see what the future holds.
+          However, it{"'"}s important to remember that AI is a tool, and like
+          any tool, it can be used for good or bad. There are ongoing
+          discussions about the potential risks and ethical considerations of
+          strong AI. But for now, AI is a powerful technology that is
+          transforming our world, and it will be interesting to see what the
+          future holds.
         </div>
       </div>
     </div>
