@@ -13,21 +13,29 @@ function AboutSelection() {
   useGSAP(() => {
     tabs.forEach((tab: string) => {
       const ele: any = document.getElementById(tab);
-      gsap.set(ele, { opacity: 0, zIndex: -1 });
       let tl: any = gsap.timeline();
       document
         .getElementById(`#${tab}-button`)
         ?.addEventListener("click", () => {
-          tl.to(ele, { opacity: 1, zIndex: 5 });
+          tl.to(ele, {
+            opacity: 1,
+            zIndex: 5,
+            display: "block",
+            ease: "power4.out",
+          });
         });
       ele?.addEventListener("click", () => {
-        console.log("IN");
-        tl.to(ele, { opacity: 0, zIndex: -1 });
+        tl.to(ele, {
+          opacity: 0,
+          zIndex: -1,
+          display: "hidden",
+          ease: "power4.out",
+        });
       });
     });
   });
   return (
-    <div className="flex flex-row justify-evenly items-center text-[20px] w-full overflow-hidden">
+    <div className="flex flex-col md:flex-row justify-evenly items-center text-[20px] w-full overflow-hidden">
       {tabs.map((ele: string, index: number) => {
         return (
           <button
@@ -41,7 +49,7 @@ function AboutSelection() {
 
       <div
         id="ai"
-        className="absolute w-[1200px] h-[500px] bg-[#9b164b] rounded-md p-2"
+        className="absolute hidden w-[400px] md:w-[700px] lg:w-[1200px] text-[13px] md:text-[17px] lg:text-[20px] h-[500px] bg-[#9b164b] rounded-md p-2 opacity-0"
       >
         <div className="text-center w-full font-bold">About AI</div>
         <br></br>
@@ -75,9 +83,11 @@ function AboutSelection() {
       </div>
       <div
         id="tnb"
-        className="absolute z-[-1] w-[1200px] h-[500px] bg-[#9b164b] rounded-md p-2"
+        className="absolute hidden -z-1 w-[400px] md:w-[700px] lg:w-[1200px] text-[13px] md:text-[17px] lg:text-[20px] h-[500px] bg-[#9b164b] rounded-md p-2 opacity-0"
       >
-        <div className="text-center w-full font-bold">About AI</div>
+        <div className="text-center w-full font-bold">
+          About The Next Breakthrough
+        </div>
         <br></br>
         <div>
           Artificial intelligence, or AI for short, is a vast and exciting field
@@ -109,9 +119,9 @@ function AboutSelection() {
       </div>
       <div
         id="us"
-        className="absolute z-[-1] w-[1200px] h-[500px] bg-[#9b164b] rounded-md p-2"
+        className="absolute hidden -z-1 w-[400px] md:w-[700px] lg:w-[1200px] text-[13px] md:text-[17px] lg:text-[20px] h-[500px] bg-[#9b164b] rounded-md p-2 opacity-0"
       >
-        <div className="text-center w-full font-bold">About AI</div>
+        <div className="text-center w-full font-bold">About us</div>
         <br></br>
         <div>
           Artificial intelligence, or AI for short, is a vast and exciting field

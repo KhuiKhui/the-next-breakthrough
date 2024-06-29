@@ -24,10 +24,10 @@ function Register() {
     timeRef.current = inter;
   }, []);
   return (
-    <div className="bg-gradient-to-t from-[#030130] to-[#300552] rounded-md border-2 border-purple-400 shadow-sm shadow-purple-500 w-[800px] h-[200px] flex flex-col justify-between items-center text-[25px]">
+    <div className="bg-gradient-to-t from-[#030130] to-[#300552] rounded-md border-2 border-purple-400 shadow-sm shadow-purple-500 w-[400px] md:w-[600px] lg:w-[800px] h-[200px] flex flex-col justify-between items-center text-[25px]">
       <b className="pt-[5px] h-fit">Tickets to the Future!</b>
       <div className="flex flex-row justify-around items-center w-full mb-[20px]">
-        <div className="text-[16px] w-[400px] text-right">
+        <div className="text-[12px] md:text-[16px] w-[400px] text-right">
           AI: The Next Breakthrough is a workshop centered around AI development
           and technology. Here at our workshop, you{"'"}ll have the opportunity
           to get up-to-date with the latest AI innovations, hear talks from
