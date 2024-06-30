@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { StrictMode, useMemo } from "react";
 import { useEffect, useRef, useState } from "react";
 
 function Register() {
